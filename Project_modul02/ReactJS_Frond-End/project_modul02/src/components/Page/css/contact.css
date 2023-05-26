@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-contact-item1 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: 30px;
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(247, 242, 237);
+}
+
+.icon-contact {
+  color: rgb(231, 136, 21);
+  text-align: start;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.text-contact {
+  color: black;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.container-contact-item2 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: 30px;
+  width: 500px;
+  height: 450px;
+  border-radius: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(243, 239, 234);
+}
+
+.form-contact {
+  height: 50px;
+  width: 80%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.form-contact-nx {
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+  height: 70px;
+}
+
+#contact-Sum {
+  display: flex;
+  background-color: rgb(233, 221, 234);
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.img-contact {
+  overflow: hidden;
+  margin: 30px;
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

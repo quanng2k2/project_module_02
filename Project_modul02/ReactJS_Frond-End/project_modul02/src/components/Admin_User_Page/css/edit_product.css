@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input-form-edit {
+  height: 50px;
+}
+
+.label-form-edit {
+  float: left;
+  margin-left: 40px;
+  clear: both;
+  font-weight: 700;
+  margin-top: 10px;
+}

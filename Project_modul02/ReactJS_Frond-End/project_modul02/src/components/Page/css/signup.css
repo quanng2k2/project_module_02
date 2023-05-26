@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loginFrom {
+  height: 600px;
+  width: 400px;
+}
+
+.pass {
+  position: relative;
+  top: -10px;
+}

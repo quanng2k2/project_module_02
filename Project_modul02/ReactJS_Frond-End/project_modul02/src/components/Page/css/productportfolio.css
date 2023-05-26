@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title-product {
+  margin-top: 10px;
+  text-align: start;
+  font-family: "Sofia", sans-serif;
+}
+
+.container-Card {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  border-radius: 10px;
+  color: antiquewhite;
+  width: 250px;
+  font-size: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-body {
+  background-color: rgb(28, 29, 30);
+  border-radius: 0 0 10px 10px;
+}
+
+.list-product {
+  margin: 20px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  position: relative;
+}
+
+.card-title {
+  font-family: "Trirong", serif;
+  text-align: start;
+  max-width: 170px;
+  height: 70px;
+  white-space: break-spaces;
+  margin-bottom: 0 !important;
+}
+
+.card-text {
+  font-family: "Trirong", serif;
+  font-weight: 600;
+  text-align: start;
+}
+
+.modal-product {
+  margin-top: 120px;
+}
+
+/* hover card */
+.hoverImg {
+  overflow: hidden;
+  transition: transform 0.5s ease;
+  border-radius: 10px 10px 0 0;
+}
+
+.hoverImg .img {
+  transition: transform 1s ease-in-out;
+}
+
+.hoverImg:hover img {
+  transition-property: all;
+  transform: scale(1.4);
+  transition-duration: 1.2s;
+}
+
+.hr-listPro {
+  width: 80%;
+  margin-left: 10%;
+  height: 10px;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.icon-loveCart {
+  font-size: 25px;
+  position: absolute;
+  left: 80%;
+  bottom: 380px;
+  color: #e30d0d;
+}
+
+.btn-primary {
+  margin-top: 10px;
+  background-color: greenyellow;
+}
+
+.flex-title-seach {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.input-search {
+  width: 250px;
+  border-radius: 5px 0 0 5px;
+}
+
+.btn-search {
+  border-radius: 0 5px 5px 0;
+  border: none;
+  height: 30px;
+  width: 50px;
+  background-color: rgb(52, 177, 21);
+  color: aliceblue;
+}
+
+.icon-search {
+  position: relative;
+  right: 30px;
+}

@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-produce {
+  background-color: antiquewhite;
+}
+
+.w-100 {
+  height: 157.54px;
+}
+
+footer {
+  background-image: url(../../../../public/image/footer-bg.png);
+  background-size: cover; /* optional, adjust as needed */
+  background-position: center; /* optional, adjust as needed */
+}
